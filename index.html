@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Quiz</title>
+    <link rel="stylesheet" href="./workspace/primarystyle.css">
+    
+</head>
+
+<body>
+    <!--- main outside div-->
+    <div class="outer-container">
+        <!---top bar section-->
+        <div class="top-bar">
+            <button>View Highscores</button>
+            <p id="timer">Timer: 00:00</p>
+        </div>
+        <!-----inner e div-->
+
+        <div class="inner-container">
+
+            <!---part one-->
+            <!---intro header-->
+            <header class="quiz-intro">
+                <h1>Welcome to the Quiz</h1>
+                <p>To get started with the quiz, start the quiz!</p>
+                <button id="startBtn">Start Quiz!</button>
+            </header>
+
+            <main>
+                <!-----part two------->
+
+                <section claass="questions screen">
+                    <h2>How hard is UCF bootcamp?</h2>
+                    <ul>
+                        <li><button>Hard</button></li>
+                        <li><button>Very Hard</button></li>
+                        <li><button>Very Very Hard</button></li>
+                        <li><button>Very Very Very Hard</button></li>
+                    </ul>
+                </section>
+                <!-----part three-->
+                <section class="quiz-finished-screen">
+                    <h2>Quiz Finished!</h2>
+                    <p>Your Score: 00</p>
+                    <div>
+                        <label for="">Enter Intials:</label>
+                        <input type="text">
+                        <button>Submit</button>
+                    </div>
+                </section>
+
+                <!----part four-->
+                <section class="highscores-screen">
+                    <h2>Highscores:</h2>
+                    <ol>
+                        <li>ES - 20</li>
+                        <li>ES - 20</li>
+                     
+                    </ol>
+                    <button>Go Back</button>
+                    <button>Clear Highscores</button>
+                </section>
+
+            </main>
+            <!---main content-->
+        </div>
+    </div>
+    <script src="./workspace/myscripts.js"></script>
+</body>
+
+</html>
